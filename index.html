@@ -1,0 +1,69 @@
+
+
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Learn about semantic HTML5 structure, accessibility, and SEO in this sample web page." />
+  <meta name="keywords" content="HTML5, semantic HTML, accessibility, SEO, web development" />
+  <meta name="author" content="Your Name" />
+  <title>MY FAST WEBSITE</title>
+</head>
+<body>
+  <header>
+    <h1>HTML</h1>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#about" aria-current="page">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <header>
+        <h1>Welcome to  my website</h1>
+        <p>This  is my first web site developmet.</p>
+      </header>
+
+      <section id="about">
+        <h2>About This Page</h2>
+        <p>This HTML page uses semantic tags like <code>&lt;section&gt;</code>, <code>&lt;article&gt;</code>, and <code>&lt;footer&gt;</code> to give meaningful structure to content.</p>
+      </section>
+
+      <section id="features">
+        <h2>Key Features</h2>
+        <ul>
+          <li><strong>Semantic HTML:</strong> Uses modern, meaningful HTML tags.</li>
+          <li><strong>Accessibility:</strong> Implements ARIA attributes and descriptive labels.</li>
+          <li><strong>SEO:</strong> Optimized with meta tags and structured headings.</li>
+        </ul>
+        <figure>
+          <img src="example.jpg" alt="Screenshot of a semantic HTML layout" />
+          <figcaption>Example of a semantically structured web page.</figcaption>
+        </figure>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <form aria-label="Contact form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit">Send</button>
+        </form>
+      </section>
+  <footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
